@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=1.0">
         <title>Foodie Fanatix</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="css/custom.css">
         </head>
         <body>
@@ -26,33 +28,44 @@
                 </nav>
             </header>
 
-    <!-- Hero Section -->
-<header class="hero text-center">
-    <div class="container">
-        <h1>Welcome to FoodieFanatix</h1>
-        <p class="lead">Join Claire on her culinary adventures around the world!</p>
+    <!-- Blog Header -->
+    <div class="blog-header mx-auto text-center mt-5 pt-5">
+        <h1>Welcome to FoodieFanatic</h1>
+        <p class="lead">Join Clair on her culinary adventures around the world!</p>
     </div>
-</header>
+            
+            <hr class="section-divider"/>
+            <hr class="section-divider"/>
+            
+     <!-- About Section -->
+    <section class="about text-center">
+        <div class="container">
+            <h2 class="about-title">About Claire</h2>
+            <p class="about-text">Claire is a passionate food blogger who travels the world to find the best restaurants and food outlets. Follow her journey and discover new flavors!</p>
+        </div>
+    </section>
+            
+            <hr class="section-divider"/>
 
 <!-- Carousel Section -->
 <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/food1.jpg" class="d-block w-100" alt="Delicious Dish">
+            <img src="img/Claire.jpg" class="d-block" style="width: 100%; height: auto;" alt="Delicious Dish">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Amazing Pasta in Rome</h5>
                 <p>Experience the best pasta in the heart of Rome.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/food2.jpg" class="d-block w-100" alt="Tasty Dessert">
+            <img src="img/Sweet%20Treats%20in%20Paris.jpg" class="d-block w-100" alt="Tasty Dessert">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Sweet Treats in Paris</h5>
                 <p>Discover the sweetest desserts Claire found while exploring Paris.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/food3.jpg" class="d-block w-100" alt="Savory Dish">
+            <img src="img/Street%20Food%20in%20Bangkok.jpg" class="d-block w-100" alt="Savory Dish">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Street Food in Bangkok</h5>
                 <p>Join Claire as she dives into the vibrant street food scene of Bangkok.</p>
@@ -75,85 +88,95 @@
             <h2 class="reviews-title">Latest Reviews</h2>
             <div class="card-deck">
                 <div class="card">
-                    <img src="food1.jpg" class="card-img-top" alt="Food Review 1">
+                    <img src="img/Anne-Sophie%20Pic.jpg" class="card-img-top" alt="Food Review 1">
                     <div class="card-body">
-                        <h5 class="card-title">Restaurant 1</h5>
-                        <p class="card-text">Amazing food and ambiance! A must-visit.</p>
+                        <h5 class="card-title">Anne-Sophie Pic (Paris)</h5>
+                        <p class="card-text">A Michelin-starred restaurant in Paris, offering bold and delicate dishes.Amazing food and ambiance! A must-visit.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="food2.jpg" class="card-img-top" alt="Food Review 2">
+                    <img src="img/Il%20Luogo%20di%20Aimo%20e%20Nadia.jpg" class="card-img-top" alt="Food Review 2">
                     <div class="card-body">
-                        <h5 class="card-title">Restaurant 2</h5>
-                        <p class="card-text">Delicious dishes that will leave you wanting more.</p>
+                        <h5 class="card-title">Il Luogo di Aimo e Nadia (Milan)</h5>
+                        <p class="card-text"> A two-Michelin-starred restaurant in Milan known for its creative and artistic dishes, with a focus on local ingredients and traditional Italian cuisine.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="food3.jpg" class="card-img-top" alt="Food Review 3">
+                    <img src="img/La%20Madre%20Ristorante.jpg" class="card-img-top" alt="Food Review 3">
                     <div class="card-body">
-                        <h5 class="card-title">Restaurant 3</h5>
-                        <p class="card-text">A great place for food lovers!</p>
+                        <h5 class="card-title">La Madre Ristorante (Belém)</h5>
+                        <p class="card-text">A distinctive dining concept that combines the sophistication of elevated dining with the genuine hospitality of a family-friendly establishment. The name "La Madre" was chosen to pay homage to the La Madre foothills, a beloved emblem of the local natural beauty and environment, as well as to evoke a sense of home.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
             
-            <div class="flex justify-center">
-    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
-        <img alt="Bob" class="rounded-lg mb-4 w-full" height="400" src="img/bob.jpg" width="600"/>
-        <h2 class="text-xl font-bold mb-2">Bob</h2>
-        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        
-        <div class="flex items-center text-gray-600 space-x-4">
-            <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
-            <span class="like-count">0</span>
-            <button class="focus:outline-none"><i class="far fa-comment"></i></button>
-            <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
-            <span>Posted 1 hour ago</span>
+            <hr class="section-divider"/>
+            
+             <section class="blog text-center">
+                <div class="container">
+                    <h2 class="blog-title">The Blog</h2>
+                    <div class="flex justify-center">
+            <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
+                <img alt="pasta" class="rounded-lg mb-4 w-full" height="400" src="img/pasta.jpg" width="600"/>
+                <h2 class="text-xl font-bold mb-2">The best pasta I'v had in a while!</h2>
+                <p class="text-gray-600 mb-4">#bonapetite #foodie #foodfanatix #france #pasta #explore #reels</p>
+
+                <div class="flex items-center text-gray-600 space-x-4">
+                    <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
+                    <span class="like-count">0</span>
+                    <button class="focus:outline-none"><i class="far fa-comment"></i></button>
+                    <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
+                    <span>Posted 55 min ago</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex justify-center">
+            <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
+                <img alt="croissant" class="rounded-lg mb-4 w-full" height="400" src="img/croissant.jpg" width="600"/>
+                <h2 class="text-xl font-bold mb-2">"Life is buttery and flaky, just like a perfect croissant."</h2>
+                <p class="text-gray-600 mb-4">#croissantgirl #foodie #foodfanatix #Rome #france #reels #tea</p>
+
+                <div class="flex items-center text-gray-600 space-x-4">
+                    <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
+                    <span class="like-count">0</span>
+                    <button class="focus:outline-none"><i class="far fa-comment"></i></button>
+                    <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
+                    <span>Posted 57 min ago</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="flex justify-center">
+            <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
+                <img alt="crèmeBrûlée" class="rounded-lg mb-4 w-full" height="400" src="img/Creme%20brulee.jpg" width="600"/>
+                <h2 class="text-xl font-bold mb-2"> "Crème brûlée is like a little treasure; with each crack of the caramelized sugar, you uncover a world of creamy delight."</h2>
+                <p class="text-gray-600 mb-4">#Rome #italy #france #foodfantix #explore</p>
+
+                <div class="flex items-center text-gray-600 space-x-4">
+                    <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
+                    <span class="like-count">0</span>
+                    <button class="focus:outline-none"><i class="far fa-comment"></i></button>
+                    <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
+                    <span>Posted 1 hour ago</span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+ </section>
+            
+            <hr class="section-divider"/>
+            <hr class="section-divider"/>
 
-
-<div class="flex justify-center">
-    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
-        <img alt="Andile" class="rounded-lg mb-4 w-full" height="400" src="img/andile.jpg" width="600"/>
-        <h2 class="text-xl font-bold mb-2">Andile</h2>
-        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        
-        <div class="flex items-center text-gray-600 space-x-4">
-            <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
-            <span class="like-count">0</span>
-            <button class="focus:outline-none"><i class="far fa-comment"></i></button>
-            <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
-            <span>Posted 1 hour ago</span>
-        </div>
-    </div>
-</div>
-    
-    
-
-<div class="flex justify-center">
-    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-2xl">
-        <img alt="John" class="rounded-lg mb-4 w-full" height="400" src="img/john.jpg" width="600"/>
-        <h2 class="text-xl font-bold mb-2">John</h2>
-        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        
-        <div class="flex items-center text-gray-600 space-x-4">
-            <button class="focus:outline-none like-button"><i class="far fa-heart like-icon"></i></button>
-            <span class="like-count">0</span>
-            <button class="focus:outline-none"><i class="far fa-comment"></i></button>
-            <button class="focus:outline-none"><i class="fas fa-retweet"></i></button>
-            <span>Posted 1 hour ago</span>
-        </div>
-    </div>
-</div>
-
-    <!-- About Section -->
+    <!-- More About Section -->
     <section class="about text-center">
         <div class="container">
-            <h2 class="about-title">About Claire</h2>
+            <h2 class="about-title">More about Claire</h2>
             <p class="about-text">Claire is a passionate food blogger who travels the world to find the best restaurants and food outlets. Follow her journey and discover new flavors!</p>
         </div>
     </section>
